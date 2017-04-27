@@ -1,0 +1,92 @@
+#zm_login{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  background:url(../images/bg.jpg) center;
+  color: white;
+}
+#zm_login .wrap{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+#zm_login .secR{
+	float: right;
+	position: relative;
+	top: 100px;
+	padding: 20px 35px 40px 45px;
+	width: 340px;
+	height: 400px;
+	
+	background-color:rgba(20, 25, 36,0.8) ;
+	}
+#zm_login h1{
+		font-size: 20px;
+	}
+#zm_login .item{
+	  margin-top: 20px;
+    width: 255px;
+    height: 44px;
+}
+#zm_login .item:last-child{margin: 0;}
+#zm_login label{
+	  width: 44px;
+    height: 44px;
+    background: #aaabab url(../images/icologin.png) center 10px no-repeat;
+    border: none;
+    display: block;
+    float: left;
+}
+#zm_login input{
+	  width: 210px;
+    height: 44px;
+    padding: 7px 0;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: .5em;
+    float: left;
+    color: #333;
+    font-weight: bold;
+}
+#zm_login #pwdInput{
+	  width: 100px;
+    margin: 0 10px;
+    height: 30px;
+    line-height: 16px;
+    font-size: 14px;
+    float: none;
+}
+#zm_login .itemRadio{
+	margin: 0;
+}
+#zm_login a{
+	color: white;
+}
+#btnSubmit{
+	  width: 255px;
+    height: 46px;
+    background: url(../images/loginbtn.png) left top no-repeat;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+#zm_login .secL{
+	  float: left;
+    font-weight: bold;
+    clear: both;
+    margin: 90px 0 0 104px;
+}
+#zm_login .secL p{
+	  font-size: 16px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+#radioPass{height: 15px;}

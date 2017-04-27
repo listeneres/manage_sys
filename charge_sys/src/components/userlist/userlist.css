@@ -1,0 +1,60 @@
+
+#userlist{
+	width: 100%;
+}
+#userlist tr{
+	overflow: hidden;
+}
+#userlist tr th{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+#userlist .userdb td{
+	height: 67px;
+	line-height: 67px;
+	text-align: center;
+}
+#userlist .userdb{
+	background: #fff;
+}
+#userlist .userdb:hover{
+	background: #eee;
+}
+.pop-content .input-group-addon{
+	width: 100px;
+}
+.userPop{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #333;
+	/*opacity: 0.8;*/
+	z-index: 99;
+	width: 100%;
+}
+.userPop .pop-content .input-group .input-group-addon{
+	opacity: 1;
+}
+.userPop .pop-content{
+	/*margin-left: 200px;*/
+	width: 40%;
+	margin:  0 auto;
+}
+.userPop #saveGoods{
+	display: inline-block;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 20px;
+	transform: translateX(50%);
+}
+.userPop .modal-title{
+	color: white;
+	width: 40%;
+	margin:  0 auto;
+	transform: translateX(25%);
+}

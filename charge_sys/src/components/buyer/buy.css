@@ -1,0 +1,37 @@
+.model{
+    z-index: 9999999;
+    width: 90%;
+    height: 800px;
+    background: rgba(0,0,0,0.1);
+    position: fixed;
+    top:0;
+    left:15%;
+}
+.model .shadow{
+    width: 70%;
+    height: 70%;
+    background: #fff;
+    margin: 50px auto;
+}
+.model .shadow .mes{
+    width:70%;
+    margin-top: 20px;
+    float: left;
+}
+.model .shadow .img{
+    width: 20%;
+    height: 30%;
+    float: left;
+    margin: 30px 10px 100px 39px;
+    border-radius: 10px;
+}
+.model .shadow .img img{
+    width: 100%;
+    height: auto;
+}
+.model .shadow .mes div{
+    float: left;
+    width: 45%;
+    margin: 10px;
+
+}
